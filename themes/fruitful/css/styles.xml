@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+    <set name="Sitewide">
+        <style name="Primary Highlight Color" variable="primary" type="color" />
+    </set>
+</styles>

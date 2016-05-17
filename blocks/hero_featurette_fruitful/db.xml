@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btHeroFeaturetteFruitful">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="imgColorOverlay" type="X2"></field>
+        <field name="imgColorOverlayColor" type="X2"></field>
+        <field name="textColor" type="X2"></field>
+        <field name="arrows" type="X2"></field>
+        <field name="duration" type="I"></field>
+        <field name="speed" type="I"></field>
+    </table>
+    <table name="btHeroFeaturetteFruitfulSlides">
+        <field name="id" type="I"><UNSIGNED/><key/><AUTOINCREMENT/></field>
+        <field name="bID" type="I"><UNSIGNED /></field>
+        <field name="fID" type="I"><UNSIGNED /><default value="0" /></field>
+        <field name="linkURL" type="X2"></field>
+        <field name="title" type="X2"></field>
+        <field name="btn1Link" type="X2"></field>
+        <field name="btn1Text" type="X2"></field>
+        <field name="btn2Link" type="X2"></field>
+        <field name="btn2Text" type="X2"></field>
+        <field name="sortOrder" type="I"></field>
+    </table>
+</schema>

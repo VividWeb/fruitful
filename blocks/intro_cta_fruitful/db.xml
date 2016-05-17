@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btIntroCtaFruitful">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="ctaText" type="X2">
+        </field>
+		<field name="buttonText" type="X2">
+		</field>
+		<field name="arrow" type="X2">
+		</field>
+		<field name="linkType" type="X2">
+		</field>
+		<field name="pageID" type="I">
+		</field>
+		<field name="externalLink" type="X2">
+		</field>
+	</table>
+</schema>
